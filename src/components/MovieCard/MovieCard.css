@@ -1,0 +1,12 @@
+.movie_cover {
+    width: 100%;
+}
+
+.movie_placeholder {
+    min-height: 359px;
+    background-color: white;
+    color: #0F1014;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

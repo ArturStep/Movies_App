@@ -1,0 +1,64 @@
+.max_width {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding: 15px;
+    
+    background-color: #0F1014;;
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    position: relative;
+    min-height: 500px;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero_title {
+    font-size: 72px;
+    margin: 0;
+}
+
+.hero_content {
+    max-width: 70%;
+    padding-bottom: 60px;
+}
+
+.btn {
+    background-color: #0F1014;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn_close {
+    position: absolute;
+    z-index: 10;
+    left: 30px;
+    bottom: 30px;
+}
+
+.youtube_container{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
